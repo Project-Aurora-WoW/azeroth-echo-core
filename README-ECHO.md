@@ -8,11 +8,11 @@
 
 | Репозиторий | Что внутри |
 |---|---|
-| [**azeroth-echo**](https://github.com/maxorlov59rus/azeroth-echo) | Контент: SQL-миграции, Lua-скрипты, модули (исходники), аддон, патчи клиента, инструменты |
+| [**azeroth-echo**](https://github.com/Project-Aurora-WoW/azeroth-echo) | Контент: SQL-миграции, Lua-скрипты, модули (исходники), аддон, патчи клиента, инструменты |
 | **azeroth-echo-core** ← вы здесь | Ядро: код AzerothCore, вкомпилированные модули, сборка |
-| [**Релизы контента**](https://github.com/maxorlov59rus/azeroth-echo/releases) | Готовые клиентские патчи |
+| [**Релизы контента**](https://github.com/Project-Aurora-WoW/azeroth-echo/releases) | Готовые клиентские патчи |
 
-**[Полная документация в Wiki](https://github.com/maxorlov59rus/azeroth-echo/wiki)** · [Связь репозиториев](https://github.com/maxorlov59rus/azeroth-echo/wiki/Связь-репозиториев)
+**[Полная документация в Wiki](https://github.com/Project-Aurora-WoW/azeroth-echo/wiki)** · [Связь репозиториев](https://github.com/Project-Aurora-WoW/azeroth-echo/wiki/Связь-репозиториев)
 
 ---
 
@@ -138,7 +138,7 @@ worldserver-daemon ready...
 | `ACCESS_VIOLATION` в `_checkMemory` | скрипты созданы глобально | создавать внутри `Add<...>Scripts()` |
 | `Could not find a proper repository signature` | нет тегов в `.git` | не критично, версия будет `unknown` |
 
-Подробно — в [Wiki: Сборка ядра](https://github.com/maxorlov59rus/azeroth-echo/wiki/Сборка-ядра) и [Устранение неполадок](https://github.com/maxorlov59rus/azeroth-echo/wiki/Устранение-неполадок).
+Подробно — в [Wiki: Сборка ядра](https://github.com/Project-Aurora-WoW/azeroth-echo/wiki/Сборка-ядра) и [Устранение неполадок](https://github.com/Project-Aurora-WoW/azeroth-echo/wiki/Устранение-неполадок).
 
 ---
 
